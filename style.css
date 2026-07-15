@@ -1466,3 +1466,78 @@ footer hr{
 }
 
 }
+.nav-links a.active{
+
+    color:var(--accent);
+
+    font-weight:700;
+
+}
+.hidden{
+
+    opacity:0;
+
+    transform:translateY(40px);
+
+    transition:all .8s ease;
+
+}
+
+.show{
+
+    opacity:1;
+
+    transform:translateY(0);
+
+}
+.top-btn{
+
+    position:fixed;
+
+    right:25px;
+
+    bottom:25px;
+
+    width:55px;
+
+    height:55px;
+
+    border:none;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    color:white;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    opacity:0;
+
+    pointer-events:none;
+
+    transition:.35s;
+
+    box-shadow:var(--shadow);
+
+    z-index:999;
+
+}
+
+.show-top{
+
+    opacity:1;
+
+    pointer-events:auto;
+
+}
+
+.top-btn:hover{
+
+    background:var(--secondary);
+
+    transform:translateY(-5px);
+
+}
