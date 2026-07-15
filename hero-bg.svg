@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="1920"
+     height="1080"
+     viewBox="0 0 1920 1080">
+
+<defs>
+
+<linearGradient id="bg"
+x1="0%"
+y1="0%"
+x2="100%"
+y2="100%">
+
+<stop offset="0%" stop-color="#1B5E20"/>
+
+<stop offset="100%" stop-color="#2E7D32"/>
+
+</linearGradient>
+
+<pattern
+id="grid"
+width="60"
+height="60"
+patternUnits="userSpaceOnUse">
+
+<path d="M60 0 L0 0 0 60"
+fill="none"
+stroke="#ffffff"
+stroke-opacity=".05"
+stroke-width="1"/>
+
+</pattern>
+
+</defs>
+
+<rect
+width="1920"
+height="1080"
+fill="url(#bg)"/>
+
+<rect
+width="1920"
+height="1080"
+fill="url(#grid)"/>
+
+<!-- Large Gear -->
+
+<g opacity=".08">
+
+<circle
+cx="1550"
+cy="220"
+r="170"
+fill="none"
+stroke="white"
+stroke-width="12"/>
+
+<circle
+cx="1550"
+cy="220"
+r="120"
+fill="none"
+stroke="white"
+stroke-width="8"/>
+
+</g>
+
+<!-- Circuit Lines -->
+
+<g
+stroke="white"
+stroke-width="3"
+opacity=".12"
+fill="none">
+
+<path
+d="M120 160 H420 V280 H720"/>
+
+<circle cx="420" cy="160" r="8" fill="white"/>
+
+<circle cx="720" cy="280" r="8" fill="white"/>
+
+<path
+d="M1600 800 H1300 V600 H980"/>
+
+<circle cx="1300" cy="800" r="8" fill="white"/>
+
+<circle cx="980" cy="600" r="8" fill="white"/>
+
+<path
+d="M450 800 H700 V930 H980"/>
+
+<circle cx="700" cy="800" r="8" fill="white"/>
+
+<circle cx="980" cy="930" r="8" fill="white"/>
+
+</g>
+
+<!-- Electronics Symbol -->
+
+<g opacity=".08">
+
+<polyline
+points="930,400 980,350 1030,450 1080,350 1130,450"
+stroke="white"
+stroke-width="10"
+fill="none"/>
+
+</g>
+
+<!-- Floating Dots -->
+
+<g fill="white" opacity=".18">
+
+<circle cx="250" cy="300" r="4"/>
+
+<circle cx="520" cy="720" r="5"/>
+
+<circle cx="930" cy="160" r="4"/>
+
+<circle cx="1420" cy="540" r="5"/>
+
+<circle cx="1750" cy="930" r="4"/>
+
+<circle cx="1640" cy="320" r="4"/>
+
+<circle cx="1200" cy="880" r="5"/>
+
+<circle cx="760" cy="500" r="4"/>
+
+</g>
+
+</svg>
