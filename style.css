@@ -368,3 +368,1101 @@ header{
     opacity:.95;
 
 }
+/* ======================================== */
+/* EVENT DETAILS */
+/* ======================================== */
+
+.event-details{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:30px;
+
+    flex-wrap:wrap;
+
+    margin:40px 0;
+
+}
+
+.event-details div{
+
+    background:rgba(255,255,255,.12);
+
+    padding:15px 25px;
+
+    border-radius:12px;
+
+    backdrop-filter:blur(10px);
+
+    font-size:18px;
+
+}
+
+/* ======================================== */
+/* BUTTONS */
+/* ======================================== */
+
+.hero-buttons{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:20px;
+
+    flex-wrap:wrap;
+
+    margin-top:20px;
+
+}
+
+.btn-primary{
+
+    background:var(--accent);
+
+    color:white;
+
+    padding:16px 34px;
+
+    border-radius:50px;
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+    box-shadow:var(--shadow);
+
+}
+
+.btn-primary:hover{
+
+    transform:translateY(-5px);
+
+    background:var(--secondary);
+
+}
+
+.btn-secondary{
+
+    border:2px solid white;
+
+    color:white;
+
+    padding:16px 34px;
+
+    border-radius:50px;
+
+    transition:var(--transition);
+
+}
+
+.btn-secondary:hover{
+
+    background:white;
+
+    color:var(--primary);
+
+}
+
+/* ======================================== */
+/* COUNTDOWN */
+/* ======================================== */
+
+.countdown-section{
+
+    padding:100px 20px;
+
+    text-align:center;
+
+    background:white;
+
+}
+
+.countdown-section h2{
+
+    font-size:42px;
+
+    color:var(--primary);
+
+    margin-bottom:15px;
+
+}
+
+.countdown-section p{
+
+    color:var(--text-light);
+
+    margin-bottom:50px;
+
+}
+
+.countdown{
+
+    display:flex;
+
+    justify-content:center;
+
+    gap:30px;
+
+    flex-wrap:wrap;
+
+}
+
+.time-box{
+
+    width:150px;
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:30px;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+    transition:.3s;
+
+}
+
+.time-box:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.time-box span{
+
+    display:block;
+
+    font-size:48px;
+
+    font-weight:700;
+
+    font-family:'Poppins';
+
+}
+
+.time-box small{
+
+    display:block;
+
+    margin-top:10px;
+
+    letter-spacing:1px;
+
+}
+
+/* ======================================== */
+/* ABOUT */
+/* ======================================== */
+
+.about{
+
+    padding:120px 0;
+
+    background:var(--background);
+
+}
+
+.about p{
+
+    max-width:900px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    font-size:18px;
+
+    text-align:center;
+
+    color:var(--text-light);
+
+}
+
+.about strong{
+
+    color:var(--primary);
+
+}
+
+/* ======================================== */
+/* WHY PARTICIPATE */
+/* ======================================== */
+
+.why-participate{
+
+    padding:120px 0;
+
+    background:white;
+
+}
+
+.features{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:35px;
+
+}
+
+.feature-card{
+
+    background:var(--background);
+
+    padding:40px 30px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    transition:.35s;
+
+    box-shadow:var(--shadow);
+
+}
+
+.feature-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.feature-card .icon{
+
+    font-size:55px;
+
+    margin-bottom:20px;
+
+}
+
+.feature-card h3{
+
+    color:var(--primary);
+
+    margin-bottom:15px;
+
+    font-size:26px;
+
+}
+
+.feature-card p{
+
+    color:var(--text-light);
+
+}
+/* ========================================
+   COMPETITIONS
+======================================== */
+
+.competitions{
+
+    padding:120px 0;
+
+    background:#ffffff;
+
+}
+
+.competition-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+
+    gap:30px;
+
+}
+
+.competition-card{
+
+    background:white;
+
+    border-radius:20px;
+
+    padding:35px 25px;
+
+    text-align:center;
+
+    box-shadow:var(--shadow);
+
+    transition:.35s;
+
+    border-top:6px solid var(--accent);
+
+    position:relative;
+
+    overflow:hidden;
+
+}
+
+.competition-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 20px 40px rgba(0,0,0,.12);
+
+}
+
+.competition-card span{
+
+    font-size:55px;
+
+    display:block;
+
+    margin-bottom:20px;
+
+}
+
+.competition-card h3{
+
+    color:var(--primary);
+
+    margin-bottom:12px;
+
+    font-size:24px;
+
+    font-family:'Poppins';
+
+}
+
+.competition-card p{
+
+    color:var(--text-light);
+
+    font-size:16px;
+
+}
+
+/* ========================================
+   SCHEDULE
+======================================== */
+
+.schedule{
+
+    padding:120px 0;
+
+    background:var(--background);
+
+}
+
+.timeline{
+
+    max-width:900px;
+
+    margin:auto;
+
+    position:relative;
+
+}
+
+.timeline::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:120px;
+
+    top:0;
+
+    width:4px;
+
+    height:100%;
+
+    background:var(--accent);
+
+}
+
+.timeline-item{
+
+    display:flex;
+
+    align-items:flex-start;
+
+    margin-bottom:50px;
+
+    position:relative;
+
+}
+
+.time{
+
+    min-width:100px;
+
+    text-align:right;
+
+    margin-right:50px;
+
+    font-weight:bold;
+
+    color:var(--primary);
+
+    font-size:18px;
+
+}
+
+.timeline-item div{
+
+    background:white;
+
+    padding:25px;
+
+    border-radius:15px;
+
+    box-shadow:var(--shadow);
+
+    flex:1;
+
+    position:relative;
+
+}
+
+.timeline-item div::before{
+
+    content:"";
+
+    position:absolute;
+
+    left:-33px;
+
+    top:30px;
+
+    width:18px;
+
+    height:18px;
+
+    border-radius:50%;
+
+    background:var(--accent);
+
+    border:5px solid white;
+
+    box-shadow:0 0 0 3px var(--accent);
+
+}
+
+.timeline-item h3{
+
+    color:var(--primary);
+
+    margin-bottom:10px;
+
+    font-family:'Poppins';
+
+}
+
+.timeline-item p{
+
+    color:var(--text-light);
+
+}
+
+/* ========================================
+   SUPERINTENDENT
+======================================== */
+
+.superintendent{
+
+    padding:120px 0;
+
+    background:white;
+
+}
+
+.superintendent-card{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:50px;
+
+    background:var(--background);
+
+    padding:50px;
+
+    border-radius:25px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.superintendent-photo{
+
+    width:180px;
+
+    height:180px;
+
+    border-radius:50%;
+
+    background:var(--primary);
+
+    color:white;
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    font-size:70px;
+
+    flex-shrink:0;
+
+}
+
+.superintendent-content h3{
+
+    color:var(--primary);
+
+    font-size:34px;
+
+    margin-bottom:8px;
+
+}
+
+.superintendent-content h4{
+
+    color:var(--accent);
+
+    margin-bottom:25px;
+
+    font-weight:600;
+
+}
+
+.superintendent-content p{
+
+    color:var(--text-light);
+
+    font-size:18px;
+
+}
+
+/* ========================================
+   COMMITTEE
+======================================== */
+
+.committee{
+
+    padding:120px 0;
+
+    background:var(--background);
+
+}
+
+.committee-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:35px;
+
+}
+
+.member-card{
+
+    background:white;
+
+    padding:40px;
+
+    text-align:center;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+    transition:.35s;
+
+}
+
+.member-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.member-avatar{
+
+    width:100px;
+
+    height:100px;
+
+    margin:auto;
+
+    margin-bottom:25px;
+
+    border-radius:50%;
+
+    background:linear-gradient(135deg,var(--primary),var(--accent));
+
+    display:flex;
+
+    align-items:center;
+
+    justify-content:center;
+
+    color:white;
+
+    font-size:45px;
+
+}
+
+.member-card h3{
+
+    color:var(--primary);
+
+    margin-bottom:12px;
+
+    font-size:24px;
+
+    font-family:'Poppins';
+
+}
+
+.member-card p{
+
+    color:var(--text-light);
+
+}
+/* ========================================
+   REGISTRATION
+======================================== */
+
+.registration{
+
+    padding:120px 0;
+
+    text-align:center;
+
+    background:linear-gradient(135deg,var(--primary),var(--secondary));
+
+    color:white;
+
+}
+
+.registration h2{
+
+    font-size:42px;
+
+    margin-bottom:20px;
+
+    font-family:'Poppins';
+
+}
+
+.registration p{
+
+    max-width:700px;
+
+    margin:20px auto;
+
+    font-size:18px;
+
+}
+
+.registration .btn-primary{
+
+    display:inline-block;
+
+    margin-top:30px;
+
+    background:white;
+
+    color:var(--primary);
+
+}
+
+.registration .btn-primary:hover{
+
+    background:#f3f3f3;
+
+}
+
+.small-text{
+
+    margin-top:20px;
+
+    opacity:.85;
+
+    font-size:15px;
+
+}
+
+/* ========================================
+   GALLERY
+======================================== */
+
+.gallery{
+
+    padding:120px 0;
+
+    background:white;
+
+}
+
+.gallery-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+
+    gap:25px;
+
+}
+
+.gallery-box{
+
+    height:220px;
+
+    border-radius:18px;
+
+    background:linear-gradient(135deg,#E8F5E9,#C8E6C9);
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    color:var(--primary);
+
+    font-size:22px;
+
+    font-weight:bold;
+
+    transition:.3s;
+
+    box-shadow:var(--shadow);
+
+}
+
+.gallery-box:hover{
+
+    transform:scale(1.03);
+
+}
+
+/* ========================================
+   CONTACT
+======================================== */
+
+.contact{
+
+    padding:120px 0;
+
+    background:var(--background);
+
+}
+
+.contact-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+
+    gap:30px;
+
+}
+
+.contact-card{
+
+    background:white;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:var(--shadow);
+
+}
+
+.contact-card h3{
+
+    color:var(--primary);
+
+    margin-bottom:15px;
+
+    font-family:'Poppins';
+
+}
+
+.contact-card p{
+
+    margin-bottom:10px;
+
+    color:var(--text-light);
+
+}
+
+/* ========================================
+   FOOTER
+======================================== */
+
+footer{
+
+    background:#12381A;
+
+    color:white;
+
+    padding:60px 0;
+
+    text-align:center;
+
+}
+
+footer h2{
+
+    margin-bottom:15px;
+
+    font-family:'Poppins';
+
+}
+
+footer p{
+
+    margin-bottom:10px;
+
+}
+
+footer hr{
+
+    margin:30px auto;
+
+    width:200px;
+
+    border:none;
+
+    border-top:1px solid rgba(255,255,255,.3);
+
+}
+
+/* ========================================
+   ANIMATIONS
+======================================== */
+
+.feature-card,
+.competition-card,
+.member-card,
+.contact-card,
+.gallery-box,
+.time-box{
+
+    transition:all .35s ease;
+
+}
+
+.feature-card:hover,
+.member-card:hover,
+.contact-card:hover{
+
+    transform:translateY(-10px);
+
+}
+
+.hero-logo{
+
+    animation:float 4s ease-in-out infinite;
+
+}
+
+@keyframes float{
+
+    0%{
+
+        transform:translateY(0);
+
+    }
+
+    50%{
+
+        transform:translateY(-12px);
+
+    }
+
+    100%{
+
+        transform:translateY(0);
+
+    }
+
+}
+
+/* ========================================
+   RESPONSIVE
+======================================== */
+
+@media(max-width:992px){
+
+.hero h1{
+
+    font-size:54px;
+
+}
+
+.place{
+
+    font-size:32px;
+
+}
+
+.superintendent-card{
+
+    flex-direction:column;
+
+    text-align:center;
+
+}
+
+.timeline::before{
+
+    left:30px;
+
+}
+
+.time{
+
+    min-width:60px;
+
+    margin-right:25px;
+
+    font-size:15px;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.navbar{
+
+    flex-direction:column;
+
+    gap:20px;
+
+    padding:20px;
+
+}
+
+.nav-links{
+
+    flex-wrap:wrap;
+
+    justify-content:center;
+
+    gap:18px;
+
+}
+
+.hero{
+
+    padding-top:180px;
+
+}
+
+.hero h1{
+
+    font-size:42px;
+
+}
+
+.hero h3{
+
+    font-size:22px;
+
+}
+
+.hero-logo{
+
+    width:90px;
+
+}
+
+.event-details{
+
+    flex-direction:column;
+
+}
+
+.countdown{
+
+    gap:15px;
+
+}
+
+.time-box{
+
+    width:120px;
+
+    padding:20px;
+
+}
+
+.time-box span{
+
+    font-size:34px;
+
+}
+
+.section-title h2{
+
+    font-size:34px;
+
+}
+
+}
+
+@media(max-width:500px){
+
+.hero h1{
+
+    font-size:34px;
+
+}
+
+.hero h3{
+
+    font-size:18px;
+
+}
+
+.btn-primary,
+.btn-secondary{
+
+    width:100%;
+
+}
+
+.hero-buttons{
+
+    flex-direction:column;
+
+}
+
+.timeline-item{
+
+    flex-direction:column;
+
+}
+
+.timeline::before{
+
+    display:none;
+
+}
+
+.time{
+
+    text-align:left;
+
+    margin-bottom:12px;
+
+}
+
+}
