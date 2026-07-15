@@ -1,0 +1,370 @@
+/* ==========================================
+   TECH FEST EXTRAVAGANZA 2026
+   Government Technical High School Kurichy
+========================================== */
+
+:root{
+
+    --primary:#1B5E20;
+    --secondary:#2E7D32;
+    --accent:#43A047;
+    --light:#66BB6A;
+
+    --background:#F5F8F5;
+    --white:#ffffff;
+
+    --text:#263238;
+    --text-light:#546E7A;
+
+    --shadow:0 10px 30px rgba(0,0,0,.08);
+
+    --radius:18px;
+
+    --transition:.35s ease;
+
+}
+
+/* ======================================== */
+
+*{
+
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+}
+
+html{
+
+    scroll-behavior:smooth;
+
+}
+
+body{
+
+    font-family:'Open Sans',sans-serif;
+
+    background:var(--background);
+
+    color:var(--text);
+
+    line-height:1.7;
+
+    overflow-x:hidden;
+
+}
+
+img{
+
+    max-width:100%;
+
+    display:block;
+
+}
+
+a{
+
+    text-decoration:none;
+
+}
+
+ul{
+
+    list-style:none;
+
+}
+
+.container{
+
+    width:min(1200px,92%);
+
+    margin:auto;
+
+}
+
+/* ======================================== */
+/* SECTION TITLE */
+/* ======================================== */
+
+.section-title{
+
+    text-align:center;
+
+    margin-bottom:60px;
+
+}
+
+.section-title h2{
+
+    font-size:42px;
+
+    font-family:'Poppins',sans-serif;
+
+    color:var(--primary);
+
+    margin-bottom:15px;
+
+    position:relative;
+
+}
+
+.section-title h2::after{
+
+    content:"";
+
+    width:90px;
+
+    height:4px;
+
+    background:var(--accent);
+
+    display:block;
+
+    margin:18px auto;
+
+    border-radius:50px;
+
+}
+
+.section-title p{
+
+    max-width:700px;
+
+    margin:auto;
+
+    color:var(--text-light);
+
+    font-size:18px;
+
+}
+
+/* ======================================== */
+/* NAVIGATION */
+/* ======================================== */
+
+header{
+
+    position:fixed;
+
+    width:100%;
+
+    top:0;
+
+    left:0;
+
+    z-index:999;
+
+}
+
+.navbar{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:16px 7%;
+
+    background:rgba(255,255,255,.92);
+
+    backdrop-filter:blur(12px);
+
+    box-shadow:0 5px 20px rgba(0,0,0,.08);
+
+}
+
+.logo{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:14px;
+
+}
+
+.logo img{
+
+    width:60px;
+
+}
+
+.logo-text h2{
+
+    font-family:'Poppins';
+
+    color:var(--primary);
+
+    font-size:22px;
+
+}
+
+.logo-text span{
+
+    color:var(--text-light);
+
+    font-size:14px;
+
+}
+
+.nav-links{
+
+    display:flex;
+
+    gap:35px;
+
+}
+
+.nav-links a{
+
+    color:var(--text);
+
+    font-weight:600;
+
+    transition:var(--transition);
+
+}
+
+.nav-links a:hover{
+
+    color:var(--accent);
+
+}
+
+.register-btn{
+
+    background:var(--primary);
+
+    color:white;
+
+    padding:12px 24px;
+
+    border-radius:40px;
+
+    transition:var(--transition);
+
+}
+
+.register-btn:hover{
+
+    background:var(--secondary);
+
+    transform:translateY(-3px);
+
+}
+
+/* ======================================== */
+/* HERO */
+/* ======================================== */
+
+.hero{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    text-align:center;
+
+    position:relative;
+
+    overflow:hidden;
+
+    background:
+    linear-gradient(rgba(20,60,20,.82),
+    rgba(20,60,20,.82)),
+    url("../assets/hero-bg.svg");
+
+    background-size:cover;
+
+    color:white;
+
+    padding-top:90px;
+
+}
+
+.hero-content{
+
+    width:min(900px,92%);
+
+    position:relative;
+
+    z-index:2;
+
+}
+
+.hero-logo{
+
+    width:120px;
+
+    margin:auto;
+
+    margin-bottom:30px;
+
+}
+
+.school-name{
+
+    font-size:20px;
+
+    letter-spacing:2px;
+
+    text-transform:uppercase;
+
+}
+
+.place{
+
+    font-size:40px;
+
+    margin-bottom:25px;
+
+}
+
+.hero h1{
+
+    font-family:'Poppins';
+
+    font-size:70px;
+
+    line-height:1.1;
+
+    margin-bottom:15px;
+
+}
+
+.hero h1 span{
+
+    display:block;
+
+    color:#A5D6A7;
+
+}
+
+.hero h3{
+
+    font-size:28px;
+
+    margin-bottom:25px;
+
+    font-weight:500;
+
+}
+
+.hero-description{
+
+    max-width:700px;
+
+    margin:auto;
+
+    margin-bottom:40px;
+
+    font-size:18px;
+
+    opacity:.95;
+
+}
